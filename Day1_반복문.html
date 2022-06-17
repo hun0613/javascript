@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>javascript_string</title>
+    </head>
+    <body>
+        <script>
+            
+            // while syntax
+            var a = 0;
+            while (a < 7){
+                document.write(a + '<br/>');
+                document.write('hello' + '<br/>');
+                a++;
+            }
+
+
+            // for syntax
+            for(var i = 0; i < 10; i++){
+                document.write('<h3>' + i + 'hello <br/></h3>');
+            }
+
+
+            // break
+            for(var i = 0; i < 10; i++){
+                if(i === 8){
+                    break;
+                }
+                document.write(i+'world<br/>');
+            }        
+
+
+            // continue
+            for(var i = 0; i < 10; i++){
+                if(i === 8){
+                    continue;
+                }
+                document.write('<h1>' + i + 'world<br/></h1>');
+            } 
+
+
+            // 이중반복문_구구단
+            for(var i = 1; i < 10; i++){
+                for(var j = 1; j < 10; j++){
+                    document.write(i + "x" + j + "=" + i * j + "<br/>");
+                }
+
+            }
+        </script>
+    </body>
+</html>

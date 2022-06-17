@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>javascript_string</title>
+    </head>
+    <body>
+        <script>
+            // string
+            alert("coding" + "everybody");
+
+            console.log("1" + "1"); // 11
+            console.log(typeof("1" + "1")); // string
+
+            console.log("hello".length);
+
+            console.log("code".indexOf("c")); // indexOf(a) -> 문자열에서 a는 몇번째에 있는지 알려준다.
+            
+
+            var a = "a";
+            var b = "b";
+
+            console.log(a + b);
+
+
+            // 비교연산자
+            console.log(1 === 2); // false
+            console.log(1 != 2); // true
+
+
+
+            // null vs undefined
+
+            null // 반드시 할당을 해 줘야됨
+            undefined // 할당을 해주든, 안해주든 undefined 상태임
+
+
+            // null
+            var res = null;
+            console.log(res); // null
+            console.log(typeof(res)); // object
+
+
+            // undefined
+            var res2 = undefined;
+            console.log(res2); // undefined
+
+            var res3;
+            console.log(res3); // undefined
+
+            console.log(typeof(res2)); // undefined
+            console.log(typeof(res3)); // undefined
+
+            // 코딩할때, 할당되었는지 안됐는지 알 수 없는 undefined보단 명확한 null을 사용하는 것이 좋다.
+
+            
+
+
+
+
+
+
+        
+
+        
+        </script>
+    </body>
+</html>
